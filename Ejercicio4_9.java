@@ -22,27 +22,26 @@ public class Ejercicio4_9 {
 		System.out.println ("Esta ecuacion tiene soluciones infinitas");
 		}
 
-    if ((a != 0) && (b != 0) && (c == 0)) {
-    System.out.println ("x1 = 0");
-    System.out.printf ("x2 = %.3f", (-b / a));
-    }
+   		if ((a != 0) && (b != 0) && (c == 0)) {
+    		System.out.println ("x1 = 0");
+    		System.out.printf ("x2 = %.3f", (-b / a));
+    		}
 
-    if ((a == 0) && (b != 0) && (c != 0)) {
-    System.out.printf ("x1 = x2 = %.3f", (-c / b));
-    }
+    		if ((a == 0) && (b != 0) && (c != 0)) {
+    		System.out.printf ("x1 = x2 = %.3f", (-c / b));
+    		}
 
 		if ((a != 0) && (b != 0) && (c != 0)) {
-        
-      double discriminante = b*b - (4 * a * c);
+        	double discriminante = b*b - (4 * a * c);
       
-    if (discriminante < 0) {
-    System.out.println ("La ecuación no tiene soluciones");
-    }  else {
-			System.out.printf ("x1 = %.3f", (-b + Math.sqrt(discriminante))/(2 * a));
-			System.out.println (" ");
-			System.out.printf ("x2 = %.3f", (-b - Math.sqrt(discriminante))/(2 * a));
-			}
-    }
+ 		if (discriminante < 0) {
+    		System.out.println ("La ecuación no tiene soluciones");
+    		}  else {
+		System.out.printf ("x1 = %.3f", (-b + Math.sqrt(discriminante))/(2 * a));
+		System.out.println (" ");
+		System.out.printf ("x2 = %.3f", (-b - Math.sqrt(discriminante))/(2 * a));
+		}
+    	}
 		
 	}
 }
