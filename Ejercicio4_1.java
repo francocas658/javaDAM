@@ -1,3 +1,8 @@
+/**
+ * ESTE PROGRAMA LEE UN DIA INTRODUCIDO POR TECLADO Y TE DICE QUE ASIGNATURA TIENES A PRIMERA HORA ESE DIA
+ * 	
+ * @author Franco Tomas Casco
+ */
 public class Ejercicio4_1 {
 	public static void main (String[] args){
 		
